@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Didact+Gothic&display=swap');
+
+* {
+    text-decoration: none;
+    margin: 0;
+    font-family: 'Didact Gothic', sans-serif;;
+}
+
+header{
+    display: flex;
+    background-color: #cc3747;
+    justify-content: space-around;
+    align-items: center;
+    padding: 8px;
+}
+
+#logo {
+    color: #F9FAF8;
+    font-size: 24px;
+    font-weight: bold;
+    align-items: center;
+}
+
+.header-links{
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+    gap: 32px;
+    margin: 0;
+    padding: 0;
+}
+
+.header-links a {
+    color: #E5E7EB;
+    font-weight: bold;
+}
+
+.first-div, .second-div, .img-row, .quote-div, .last-div {
+    display: flex;
+    padding: 52px;
+    height: 300px;
+}
+
+.first-div {  
+    background-color: #d15c57;
+    color: #F9FAF8;
+    justify-content: center;
+    align-items: center;
+    gap: 48px;
+}
+
+.div-text{
+    width: 50vh;
+}
+
+h1{
+    font-size: 42px;
+    margin: 6px;
+}
+
+.sign-up-button {
+    background-color: #cc3747;
+    font-weight: bold;
+    color: #F9FAF8;
+    border: 2px solid #F9FAF8;;
+    padding: 6px 32px;
+    margin-top: 12px;
+    border-radius: 8px;
+}
+
+.sign-up-button a {
+    color: #F9FAF8;
+}
+
+img {
+    width: 50vh;
+    border-radius: 8px;
+}
+
+.second-div {
+    text-align: center;
+    flex-direction: column;  
+}
+
+h2 {
+    color: #cc3747
+}
+
+.img-row {
+    justify-content: center;
+    gap: 48px;
+}
+
+.img-row img {
+    max-width: 150px;
+    border-radius: 10%;
+    border: 3px solid #d15c57;
+}
+
+.img-row p {
+    width: 150px;
+}
+
+.quote-div{
+    background-color: #d9d4a8;
+    color: #5c374b;
+    font-size: 24px;
+    font-style: italic;
+    align-items: center;
+    justify-content: center;
+}
+
+.quote-div p{
+    width: 100vh;
+}
+
+.last-div {
+    align-items: center;
+    justify-content: center;
+}
+
+.box {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #d15c57;
+    color: #F9FAF8;
+    width: 120vh;
+    min-width: 100vh;
+    height: 150px;
+    border-radius: 8px;
+}
+
+.blue-box p {
+    color: #E5E7EB;
+}
+
+footer {
+    display: flex;
+    background-color: #cc3747;
+    color: #F9FAF8;
+    justify-content: center;
+    align-items: center;
+    padding: 32px;
+}
+
+
+
+
+
+
+
